@@ -1,0 +1,7 @@
+
+# nosqlbench
+logs/
+
+# Gradle
+.gradle
+build/

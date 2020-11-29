@@ -1,0 +1,23 @@
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = '11'
+    group 'io:nosqlbench'
+    repositories {
+        mavenCentral()
+        // maven repository for io.confluent:kafka-avro-serializer
+        maven {
+            url 'https://packages.confluent.io/maven'
+        }
+    }
+}
+
+apply plugin: 'application'
+
+application {
+    mainClass = 'io.nosqlbench.engine.cli.NBCLI'
+}
+
+dependencies {
+    runtimeOnly 'io.nosqlbench:nb:3.12.155'
+    runtimeOnly project(':driver-sample')
+}
