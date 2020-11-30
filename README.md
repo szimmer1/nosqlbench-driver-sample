@@ -1,5 +1,5 @@
-This is a sample project to demonstrate how to extend nosqlbench with new drivers
-without forking the project or commiting code to the main branch. Also, it demonstrates
+This is a sample project to demonstrate how to extend [nosqlbench](https://github.com/nosqlbench/nosqlbench)
+with new drivers without forking the project or commiting code to the main branch. Also, it demonstrates
 building with Gradle instead of the nosqlbench's Maven.
 ### Build
 Note: Gradle will enforce minimum Java version 11.
