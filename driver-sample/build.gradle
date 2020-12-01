@@ -2,4 +2,5 @@ version '1.0.0-SNAPSHOT'
 
 dependencies {
     implementation 'io.nosqlbench:engine-api:3.12.155'
+    annotationProcessor 'io.nosqlbench:nb-api:3.12.155'
 }

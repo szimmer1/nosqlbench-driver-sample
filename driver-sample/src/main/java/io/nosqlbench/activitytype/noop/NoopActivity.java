@@ -1,3 +1,5 @@
+package io.nosqlbench.activitytype.noop;
+
 import io.nosqlbench.engine.api.activityimpl.ActivityDef;
 import io.nosqlbench.engine.api.activityimpl.SimpleActivity;
 
